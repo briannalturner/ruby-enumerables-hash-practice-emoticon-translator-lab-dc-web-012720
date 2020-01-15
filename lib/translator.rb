@@ -18,6 +18,7 @@ end
 
 def get_japanese_emoticon(file_path, emoticon)
   file = load_library(file_path)
+  p emoticon
   pp file[emoticon]
   # code goes here
 end
