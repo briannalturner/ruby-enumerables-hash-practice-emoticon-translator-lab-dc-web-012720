@@ -29,4 +29,4 @@ def get_english_meaning(file_path, emoticon)
   pp file
 end
 
-get_english_meaning()
+get_english_meaning("./lib/emoticons.yml", "(Ｔ▽Ｔ)")
