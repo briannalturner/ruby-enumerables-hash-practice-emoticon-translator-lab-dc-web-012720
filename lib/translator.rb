@@ -17,7 +17,11 @@ end
 
 def get_japanese_emoticon(file_path, emoticon)
   file = load_library(file_path)
-  file[:get_emoticon][emoticon]
+  if file[:get_emoticon][emoticon]
+    return file[:get_emoticon][emoticon]
+  else
+    return ""
+  
 end
 
 get_japanese_emoticon("./lib/emoticons.yml", "=D")
