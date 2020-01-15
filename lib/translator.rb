@@ -26,7 +26,7 @@ end
 
 def get_english_meaning(file_path, emoticon)
   file = load_library(file_path)
-  pp file
+  pp file[:get_meaning][emoticon]
 end
 
 get_english_meaning("./lib/emoticons.yml", "(Ｔ▽Ｔ)")
