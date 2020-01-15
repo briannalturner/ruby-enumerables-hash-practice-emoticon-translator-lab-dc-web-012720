@@ -28,3 +28,5 @@ def get_english_meaning(file_path, emoticon)
   file = load_library(file_path)
   pp file
 end
+
+get_english_meaning()
